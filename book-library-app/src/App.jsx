@@ -28,7 +28,7 @@ const App = () => {
     <div className='m-11'>
       <div className='items-center'>
       
-         <h1 className='text-center pb-11 pt-5'>📔 Online Library </h1>
+         <h1 className=' pb-11 pt-5 pl-32'>📔 Online Library </h1>
       </div>
       <div className='bg-[url(https://th.bing.com/th/id/OIP.NjNr7MpHQ4jOsrbYGfo-VAHaE5?rs=1&pid=ImgDetMain)] bg-gradient bg-cover items-center justify-center h-screen'>
 
