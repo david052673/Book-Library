@@ -48,9 +48,8 @@ const App = () => {
         
          <div className='mr-12 ml-13 mt-76 p-20 text-blue-600 text-center'><h1>Enjoy studying and exploring more books📚</h1></div>
 
-
-          <div className=''> <Footer/> </div>
         </div>
+        <div className=''> <Footer/> </div>
     </div>
 
     
