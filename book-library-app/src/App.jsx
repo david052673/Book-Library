@@ -3,9 +3,7 @@ import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
 import BookCard from './components/BookCard';
 import BookDetails from './components/BookDetails';
-const page=()=>{
-  <p> <page/> </p>
-}
+
 const App = () => {
   const [books, setBooks] = useState([]);
   const [selectedBook, setSelectedBook] = useState(null);
@@ -26,10 +24,9 @@ const App = () => {
   return (
     
     <div className='m-11'>
-      <header className='items-center'>
-      
-         <h1 className=' pb-11 pt-5 pl-32'>📔 Online Library </h1>
-      </header>
+         <header>  
+         <h1 className=' pb-11 pt-5 pl-32'>📔 Online Library </h1></header>
+    
       <div className='bg-[url(https://th.bing.com/th/id/OIP.NjNr7MpHQ4jOsrbYGfo-VAHaE5?rs=1&pid=ImgDetMain)] bg-gradient bg-cover items-center justify-center h-screen'>
 
         <div className='text-white p-53 mr-19 ml-11  px-36 pt-24'>
@@ -49,6 +46,7 @@ const App = () => {
          <div className='mr-12 ml-13 mt-76 p-20 text-blue-600 text-center'><h1>Enjoy studying and exploring more books📚</h1></div>
          <div className=''> <Footer/> </div>
         </div>
+        
         
     </div>
 
